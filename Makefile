@@ -15,4 +15,4 @@ clean:
 	rm -v $(OBJS) $(TARGET)
 
 uninstall:
-	install -m 755 qrenconsole ${HOME}/bin
+	install -m 755 qrenconsole ${PREFIX}/bin
